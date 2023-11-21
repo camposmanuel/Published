@@ -13,7 +13,7 @@ The terms before and after refer to the recombination event with mv4 integrase.
 #### Script
 mv4armsPasticity.ipynb is a Jupyter Notebook that takes read counts data from one of the 4 data files and computes the information content at each of the seven positions of the mv4 integrase binding sites (B, B', C and C'). Inter-dependencies between pairs of positions were estimated by constructing contingency tables between pairs of nucleotides existing at each pairs of positions. Departure from a purely random association between nucleotides at each pair of position was estimated using Cramer's V. Cramer's V constitutes an effect size and can be interpreted as such, taking into consideration the degree of freedom.
 
-## Ackowlegements
+## Acknowledgement
 We used the python package [seqlogo](https://github.com/betteridiot/seqlogo) to generate sequence logos produced in the figures of this manuscript.
 We also used the Pandas library:
 McKinney, W., & others. (2010). Data structures for statistical computing in python. In Proceedings of the 9th Python in Science Conference ([Vol. 445, pp. 51–56](https://conference.scipy.org/proceedings/scipy2010/pdfs/mckinney.pdf))
